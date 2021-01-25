@@ -14,7 +14,7 @@ This repo generates the segementation (instance/ semantic) masks from provided j
 
 ## Data Generation
 
-For custom datasets you can use `labelme` to generate your own annotations. To install `labelme` type following in `cmd`
+For custom datasets you can use [labelme](https://pypi.org/project/labelme/) to generate your own annotations. To install `labelme` type following in `cmd`
 
 ```
 pip install labelme
@@ -41,8 +41,8 @@ Sample Output
 
 If `instance_seg = False`
 
-![alt text]()
+![alt text](https://github.com/Mr-TalhaIlyas/Generating-Image-Segmentation-Masks-form-JSON-files/blob/master/screens/img1.png)
 
 if `instance_seg = True`
 
-![alt text]()
+![alt text](https://github.com/Mr-TalhaIlyas/Generating-Image-Segmentation-Masks-form-JSON-files/blob/master/screens/img2.png)
