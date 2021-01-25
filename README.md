@@ -37,7 +37,7 @@ output_dir = 'C:/Users/Talha/Desktop/output/'
 file_paths = glob.glob(os.path.join('C:/Users/Talha/Desktop/data/', '*.json')) 
 ```
 
-Sample Output
+## Sample Output
 
 If `instance_seg = False`
 
