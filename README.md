@@ -22,7 +22,7 @@ pip install labelme
 
 You can label you data as follows,
 
-![alt text]()
+![alt text](https://github.com/Mr-TalhaIlyas/Generating-Image-Segmentation-Masks-form-JSON-files/blob/master/screens/Screenshot%20(173).png)
 
 ## Sample usage
 
