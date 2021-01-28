@@ -39,10 +39,16 @@ file_paths = glob.glob(os.path.join('C:/Users/Talha/Desktop/data/', '*.json'))
 
 ## Sample Output
 
-If `instance_seg = False`
+### If `instance_seg = False`
+If instance segmentation mask gen is set to false than we will save a 1 channel image (8 bit depth)
 
 ![alt text](https://github.com/Mr-TalhaIlyas/Generating-Image-Segmentation-Masks-form-JSON-files/blob/master/screens/img1.png)
 
-if `instance_seg = True`
+### if `instance_seg = True`
+
+If instance segmentation mask gen is set to true than we will save a 3 channel image (24 bit depth)
+* 1st channel will have semantic IDs
+* 2nd will have instance IDs
+* 3rd channel will be all zeros
 
 ![alt text](https://github.com/Mr-TalhaIlyas/Generating-Image-Segmentation-Masks-form-JSON-files/blob/master/screens/img2.png)
